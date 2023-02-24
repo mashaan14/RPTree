@@ -7,6 +7,3 @@ Mashaan Alshammari, John Stavrakakis, Adel F. Ahmed, and Masahiro Takatsuka. "Th
 
 ### Folder: Random projection tree similarity for SpectralNet
 Mashaan Alshammari, John Stavrakakis, Adel F. Ahmed, and Masahiro Takatsuka. "Random projection tree similarity for SpectralNet," in Array, 2023, doi: https://doi.org/10.1016/j.array.2022.100274
-
-### Folder: Random projection forest initialization for graph convolutional networks
-Mashaan Alshammari, John Stavrakakis, Adel F. Ahmed, and Masahiro Takatsuka. "Random projection forest initialization for graph convolutional networks" submitted to Neural Processing Letters journal.
