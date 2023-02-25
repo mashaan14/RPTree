@@ -22,26 +22,14 @@ class Node(object):
         self.left           = None
         self.right          = None
 
-    def get_leaf_nodes(self):
-        leaves = []
-        self._collect_leaf_nodes(self,leaves)
-        return leaves
-
-    def _collect_leaf_nodes(self, node, leaves):
-        if node is not None:
-            if node.left==None and node.right==None:
-                leaves.append(node.data)
-                
-            self._collect_leaf_nodes(node.left, leaves)
-            self._collect_leaf_nodes(node.right, leaves)
 
 class BinaryTree(object):
     def __init__(self, root):
         self.root = Node(root)
       
-    def construct_tree(self, tree):
+    def construct_tree(self, tree, whichProjection):
         nTry = 3
-        whichProjection = '2008_Dasgupta' # '2008_Dasgupta' # '2019_Yan' #  'proposed' # 'PCA'
+        #whichProjection = '2008_Dasgupta' # '2008_Dasgupta' # '2019_Yan' #  'proposed' # 'PCA'
         
         X_data = tree.root.data
         if whichProjection == '2008_Dasgupta':
@@ -120,16 +108,31 @@ class BinaryTree(object):
         #         labelbottom=False,labeltop=False,labelleft=False,labelright=False)
         
         if X_left.shape[0]>20:
-            tree.root.left = self.construct_tree(BinaryTree(X_left))
+            tree.root.left = self.construct_tree(BinaryTree(X_left), whichProjection)
         else:
             tree.root.left = Node(X_left)            
             
         if X_right.shape[0]>20:
-            tree.root.right = self.construct_tree(BinaryTree(X_right))
+            tree.root.right = self.construct_tree(BinaryTree(X_right), whichProjection)
         else:
             tree.root.right = Node(X_right)
             
-        return tree.root                                    
+        return tree.root
+            
+                        
+        
+    def get_leaf_nodes(self):
+        leafs = []
+        self._collect_leaf_nodes(self.root,leafs)
+        return leafs
+
+    def _collect_leaf_nodes(self, node, leafs):
+        if node is not None:
+            if node.left==None and node.right==None:
+                leafs.append(node)
+                
+            self._collect_leaf_nodes(node.left, leafs)
+            self._collect_leaf_nodes(node.right, leafs)
             
     def preorder_search(self, NodeRoot, NodeSearch):
         if NodeRoot.left==None or NodeRoot.right==None:
