@@ -3,7 +3,6 @@
 ## 	The Effect of Points Dispersion on the k-nn Search in Random Projection Forests
 This is an implementation for the following paper:
 ```
-
 @ARTICLE{9846977,
 	author={Alshammari, Mashaan and Stavrakakis, John and Ahmed, Adel F. and Takatsuka, Masahiro},
 	journal={IEEE Access}, 
