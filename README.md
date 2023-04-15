@@ -31,7 +31,5 @@ this python file contains the driver code to create `BinaryTree` instance, then 
 - perform k-nn search on the rpTree to find the nearest neighbors for the test sample.
 
 ---
-Provided by Mashaan Alshammari<br/>
-mashaan14 at gmail dot com<br/>
-mashaan dot awad at outlook dot com<br/>
+written by [Mashaan Alshammari](https://mashaan14.github.io/mashaan/)<br/>
 August 01, 2022.
