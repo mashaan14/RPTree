@@ -29,7 +29,3 @@ this python file contains the driver code to create `BinaryTree` instance, then 
 - pick a random test sample, and remove it from the dataset.
 - create the rpTree from the dataset.
 - perform k-nn search on the rpTree to find the nearest neighbors for the test sample.
-
----
-written by [Mashaan Alshammari](https://mashaan14.github.io/mashaan/)<br/>
-August 01, 2022.
