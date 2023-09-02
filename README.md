@@ -18,13 +18,13 @@ This is an implementation for the following paper:
 
 ## How to use:
 
-### RPTree.py
+### `RPTree.py`
 this python file contains the `BinaryTree` class, which performs the following tasks:
 - `construct_tree`
 - `get_leaf_nodes`
 - `preorder_search`
 
-### RunMain.py
+### `RunMain.py`
 this python file contains the driver code to create `BinaryTree` instance, then performs the following tasks:
 - pick a random test sample, and remove it from the dataset.
 - create the rpTree from the dataset.
