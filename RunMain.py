@@ -98,14 +98,4 @@ for whichProjection in ['2008_Dasgupta','2019_Yan','proposed','PCA']:
                 my_file.write(str(np.round(TrueNeighborsMissed/k, 4))+','+str(NumOfTrees)+','+whichProjection+','+Dataset+',Avg. missing rate')
                 my_file.write('\n')
                 my_file.write(str(np.round(xTreeDistSort[-1]-xDistSort[-1], 4))+','+str(NumOfTrees)+','+whichProjection+','+Dataset+',Avg. distance error')
-            
-    #         if run==0:
-    #             Results = np.array([(TrueNeighborsMissed/k), (xTreeDistSort[-1]-xDistSort[-1])])
-    #         else:
-    #             Results = np.vstack((Results, [(TrueNeighborsMissed/k), (xTreeDistSort[-1]-xDistSort[-1])]))
         
-    #     if NumOfTrees == 1:
-    #         ResultsAll = Results
-    #     else:
-    #         ResultsAll = np.hstack((ResultsAll,Results))
-    # np.savetxt('Results-CASP-'+whichProjection+'.csv', ResultsAll, delimiter=",")
