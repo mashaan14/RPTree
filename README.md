@@ -1,7 +1,7 @@
 # RPTree
 
 [![DOI](http://img.shields.io/badge/doi-10.1109/ACCESS.2022.3195488-36648B.svg)](https://doi.org/10.1109/ACCESS.2022.3195488)
-[![Python 3.10+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/release/python-390/)
+[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/release/python-390/)
 
 ## 	The Effect of Points Dispersion on the k-nn Search in Random Projection Forests
 This is an implementation for the following paper:
