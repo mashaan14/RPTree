@@ -26,6 +26,6 @@ this python file contains the `BinaryTree` class, which performs the following t
 
 ### `RunMain.py`
 this python file contains the driver code to create `BinaryTree` instance, then performs the following tasks:
-- pick a random test sample, and remove it from the dataset.
-- create the rpTree from the dataset.
-- perform k-nn search on the rpTree to find the nearest neighbors for the test sample.
+- picks a random test sample, and removes it from the dataset.
+- creates the rpTree from the dataset.
+- performs k-nn search on the rpTree to find the nearest neighbors for the test sample.
