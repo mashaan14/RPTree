@@ -7,13 +7,13 @@
 This is an implementation for our paper in IEEE Access:
 ```bibtex
 @ARTICLE{9846977,
-	author=	  {Alshammari, Mashaan and Stavrakakis, John and Ahmed, Adel F. and Takatsuka, Masahiro},
-	journal=  {IEEE Access}, 
-	title=	  {The Effect of Points Dispersion on the k-nn Search in Random Projection Forests}, 
-	year=	  {2022},
-	volume=	  {10},
-	pages=	  {80858-80868},
-	doi=	  {10.1109/ACCESS.2022.3195488}}
+	author	  = {Alshammari, Mashaan and Stavrakakis, John and Ahmed, Adel F. and Takatsuka, Masahiro},
+	journal	  = {IEEE Access}, 
+	title	  = {The Effect of Points Dispersion on the k-nn Search in Random Projection Forests}, 
+	year 	  = {2022},
+	volume	  = {10},
+	pages	  = {80858-80868},
+	doi	  = {10.1109/ACCESS.2022.3195488}}
 ```
 
 ## How to use:
